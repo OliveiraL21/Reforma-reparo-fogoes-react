@@ -25,5 +25,24 @@
 }
 
 .navbar__menulist-item {
-	padding: 16px;
+	padding: 0 1em;
+
+}
+
+.navbar__menulist-item-text {
+	font-family: "Lora", serif;
+	font-size: 16px;
+	font-weight: 400;
+	transition: all .2s linear;
+	color: #393d3f;
+	background-color: transparent;
+
+}
+
+.navbar__menulist-item-text:hover {
+	transform: scale(1.2);
+}
+
+.navbar__menu__button {
+	font-family: "Lora", serif;
 }
